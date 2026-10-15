@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plateforme Z - Divertissement & Découverte</title>
+  <meta name="description" content="Plateforme Z : vidéos courtes et amusantes, mini-jeux jouables, 100 films et séries à découvrir, et questions fascinantes de découverte scientifique et culturelle." />
+  <meta property="og:title" content="Plateforme Z - Divertissement & Découverte" />
+  <meta property="og:description" content="Plateforme Z : vidéos courtes et amusantes, mini-jeux jouables, 100 films et séries à découvrir, et questions fascinantes de découverte scientifique et culturelle." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <!-- Feuille CSS indépendante de la Page Z -->
+  <link rel="stylesheet" href="/css/z.css" />
+</head>
+<body>
+
+  <!-- Barre de Navigation Principale Z | Jeux | Film | Fun -->
+  <header class="site-header" id="z-main-nav"></header>
+
+  <!-- Contenu Principal : Flux Vertical de Vidéos Courtes Style TikTok -->
+  <main class="z-main-container">
+
+    <!-- Barre de Filtres de Catégories -->
+    <section class="feed-filter-bar" aria-label="Filtres par catégorie">
+      <div class="category-tags-scroll">
+        <button class="cat-pill active" data-cat="Tous">🔥 Tous</button>
+        <button class="cat-pill" data-cat="Comédie & Sketchs">😂 Comédie & Humour</button>
+        <button class="cat-pill" data-cat="Danse & Performance">💃 Danse & Performance</button>
+        <button class="cat-pill" data-cat="Talents & Magie">✨ Talents & Magie</button>
+        <button class="cat-pill" data-cat="Sports Urbains & Défis">🛹 Défis Urbains</button>
+        <button class="cat-pill" data-cat="Interviews & Micro-Trottoir">🎤 Micro-Trottoir</button>
+        <button class="cat-pill" data-cat="Moments Humains & Réactions">❤️ Moments Humains</button>
+      </div>
+
+      <div class="feed-header-actions">
+        <button class="btn-header-secondary" id="btn-import-video" aria-label="Importer une vidéo">
+          <span>+ Importer</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Zone de Visualisation du Lecteur (TikTok Viewport) -->
+    <section class="video-feed-viewport" aria-label="Lecteur vidéo immersif">
+      
+      <!-- Boutons de Défilement Desktop -->
+      <button class="nav-arrow-control prev" id="btn-nav-prev" aria-label="Vidéo précédente">▲</button>
+      <button class="nav-arrow-control next" id="btn-nav-next" aria-label="Vidéo suivante">▼</button>
+
+      <!-- Carte Vidéo Verticale -->
+      <div class="video-card-stage" id="video-card-stage">
+        
+        <!-- Lecteur Vidéo / Iframe -->
+        <div class="player-frame-wrapper" id="player-container">
+          <!-- Injecté dynamiquement par js/z.js -->
+        </div>
+
+        <!-- Appel à l'action pour le son (conformité autoplay des navigateurs) -->
+        <div class="unmute-callout" id="callout-unmute" role="button" tabindex="0" aria-label="Activer le son">
+          <span>🔊 Activer le son (Cliquez ici)</span>
+        </div>
+
+        <!-- Sidebar des Commandes d'Action Style TikTok -->
+        <aside class="video-actions-sidebar" aria-label="Actions sur la vidéo">
+          <button class="action-btn-item" id="btn-like" aria-label="Aimer la vidéo">
+            <div class="action-btn-icon-circle">❤️</div>
+            <span class="action-btn-label" id="like-count">0</span>
+          </button>
+
+          <button class="action-btn-item" id="btn-comment" aria-label="Voir les commentaires">
+            <div class="action-btn-icon-circle">💬</div>
+            <span class="action-btn-label" id="comment-count">0</span>
+          </button>
+
+          <button class="action-btn-item" id="btn-fav" aria-label="Ajouter aux favoris">
+            <div class="action-btn-icon-circle">★</div>
+            <span class="action-btn-label">Favori</span>
+          </button>
+
+          <button class="action-btn-item" id="btn-share" aria-label="Partager la vidéo">
+            <div class="action-btn-icon-circle">↗️</div>
+            <span class="action-btn-label">Partager</span>
+          </button>
+
+          <button class="action-btn-item" id="btn-mute-toggle" aria-label="Couper ou activer le son">
+            <div class="action-btn-icon-circle">🔇</div>
+            <span class="action-btn-label">Son</span>
+          </button>
+        </aside>
+
+        <!-- Métadonnées de la Vidéo (Bas de l'écran) -->
+        <div class="video-meta-overlay">
+          <div class="creator-handle-row">
+            <span class="creator-handle" id="creator-handle">@createur_z</span>
+            <span class="category-tag-badge" id="category-badge">Comédie</span>
+          </div>
+          <p class="video-caption-title" id="video-title">Chargement de la vidéo...</p>
+          <span class="license-info-note">Intégration officielle autorisée • Hébergé chez le diffuseur officiel</span>
+        </div>
+
+        <!-- Tiroir des Commentaires -->
+        <div class="comments-drawer" id="comments-drawer">
+          <div class="comments-drawer-header">
+            <h3>Commentaires</h3>
+            <button class="btn-close-modal" id="close-comments">✕</button>
+          </div>
+          <div class="comments-list" id="comments-list"></div>
+          <div class="comment-input-row">
+            <input type="text" id="comment-input" class="comment-input" placeholder="Ajouter un commentaire respectueux..." />
+            <button class="btn-send-comment" id="btn-send-comment">Publier</button>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Scripts Natifs de la Page Z -->
+  <script type="module" src="/js/z.js"></script>
+
+</body>
+</html>

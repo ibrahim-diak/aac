@@ -1,0 +1,653 @@
+/* ==============================================================
+   PLATEFORME Z — CSS PAGE FILM (film.html)
+   ============================================================== */
+
+:root {
+  --f-bg-main: #0b0d14;
+  --f-bg-surface: #131726;
+  --f-bg-card: #1b2034;
+  --f-bg-card-hover: #222944;
+  
+  --f-accent-film: #06b6d4;
+  --f-accent-purple: #8b5cf6;
+  --f-accent-amber: #f59e0b;
+  --f-accent-gradient: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+  
+  --f-text-main: #f8fafc;
+  --f-text-muted: #94a3b8;
+  --f-text-dim: #64748b;
+  
+  --f-border: rgba(255, 255, 255, 0.08);
+  --f-border-hover: rgba(6, 182, 212, 0.45);
+  
+  --f-radius-sm: 8px;
+  --f-radius-md: 14px;
+  --f-radius-lg: 20px;
+  --f-radius-full: 9999px;
+  
+  --f-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--f-bg-main);
+  color: var(--f-text-main);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header & Nav */
+.site-header {
+  height: 68px;
+  background: rgba(19, 23, 38, 0.85);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--f-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 28px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-brand .brand-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--f-text-main);
+}
+
+.brand-logo-letter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  background: var(--f-accent-gradient);
+  border-radius: var(--f-radius-sm);
+  font-size: 22px;
+  font-weight: 900;
+  color: #ffffff;
+  box-shadow: 0 0 16px rgba(6, 182, 212, 0.5);
+}
+
+.brand-subtext {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.nav-tabs-list {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 6px;
+  border-radius: var(--f-radius-full);
+  border: 1px solid var(--f-border);
+}
+
+.nav-tab-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  border-radius: var(--f-radius-full);
+  color: var(--f-text-muted);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.nav-tab-item:hover {
+  color: var(--f-text-main);
+}
+
+.nav-tab-item.active {
+  color: #ffffff;
+  background: var(--f-accent-gradient);
+  box-shadow: 0 4px 14px rgba(6, 182, 212, 0.4);
+}
+
+/* User Pill & Auth */
+.btn-login-open {
+  background: var(--f-accent-gradient);
+  color: #ffffff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: var(--f-radius-full);
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.user-pill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--f-bg-surface);
+  border: 1px solid var(--f-border);
+  padding: 4px 12px 4px 8px;
+  border-radius: var(--f-radius-full);
+  cursor: pointer;
+}
+
+.user-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.streak-badge {
+  background: rgba(245, 158, 11, 0.15);
+  color: #f59e0b;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: var(--f-radius-full);
+}
+
+.level-badge {
+  background: rgba(6, 182, 212, 0.2);
+  color: #67e8f9;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: var(--f-radius-full);
+}
+
+/* Page Layout */
+.film-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 30px 24px;
+  flex: 1;
+  width: 100%;
+}
+
+/* Top Sub-tabs Switcher */
+.subtabs-switcher {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+
+.subtabs-nav-bar {
+  display: inline-flex;
+  background: var(--f-bg-surface);
+  border: 1px solid var(--f-border);
+  padding: 6px;
+  border-radius: var(--f-radius-full);
+  gap: 8px;
+}
+
+.subtab-btn {
+  background: none;
+  border: none;
+  color: var(--f-text-muted);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 24px;
+  border-radius: var(--f-radius-full);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.subtab-btn:hover {
+  color: var(--f-text-main);
+}
+
+.subtab-btn.active {
+  background: var(--f-accent-gradient);
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(6, 182, 212, 0.4);
+}
+
+/* Search and Filters Bar */
+.film-controls-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.film-search-box {
+  flex: 1;
+  min-width: 260px;
+  position: relative;
+}
+
+.film-search-input {
+  width: 100%;
+  background: var(--f-bg-surface);
+  border: 1px solid var(--f-border);
+  border-radius: var(--f-radius-full);
+  padding: 10px 20px 10px 42px;
+  color: #fff;
+  font-size: 14px;
+  transition: border-color 0.15s ease;
+}
+
+.film-search-input:focus {
+  outline: none;
+  border-color: var(--f-accent-film);
+}
+
+.search-icon-hint {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--f-text-dim);
+  pointer-events: none;
+}
+
+.genre-filter-row {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 2px 0;
+}
+
+.genre-filter-btn {
+  background: var(--f-bg-surface);
+  border: 1px solid var(--f-border);
+  color: var(--f-text-muted);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: var(--f-radius-full);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+
+.genre-filter-btn:hover {
+  color: var(--f-text-main);
+  border-color: var(--f-border-hover);
+}
+
+.genre-filter-btn.active {
+  background: var(--f-accent-film);
+  color: #0b0d14;
+  font-weight: 700;
+  border-color: var(--f-accent-film);
+}
+
+/* Movies & Series 100 Cards Grid */
+.films-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 22px;
+  margin-bottom: 40px;
+}
+
+.film-card {
+  background: var(--f-bg-surface);
+  border: 1px solid var(--f-border);
+  border-radius: var(--f-radius-md);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+}
+
+.film-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--f-border-hover);
+  box-shadow: var(--f-shadow);
+}
+
+.film-poster-box {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  position: relative;
+  overflow: hidden;
+  background: #090b12;
+}
+
+.film-poster-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.film-card:hover .film-poster-img {
+  transform: scale(1.04);
+}
+
+.film-rating-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(11, 13, 20, 0.85);
+  backdrop-filter: blur(6px);
+  color: #facc15;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 3px 8px;
+  border-radius: var(--f-radius-sm);
+  border: 1px solid rgba(250, 204, 21, 0.3);
+}
+
+.film-fav-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(11, 13, 20, 0.85);
+  border: 1px solid var(--f-border);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.film-fav-btn:hover {
+  transform: scale(1.1);
+}
+
+.film-fav-btn.active {
+  color: #ec4899;
+  border-color: #ec4899;
+}
+
+.film-info-body {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.film-title {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  line-height: 1.3;
+  color: var(--f-text-main);
+}
+
+.film-meta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--f-text-muted);
+  margin-bottom: 8px;
+}
+
+.film-genre-tag {
+  background: rgba(6, 182, 212, 0.15);
+  color: #67e8f9;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: var(--f-radius-sm);
+}
+
+.film-synopsis-snippet {
+  font-size: 12px;
+  color: var(--f-text-muted);
+  line-height: 1.4;
+  margin-bottom: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex: 1;
+}
+
+.film-card-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-film-discover {
+  flex: 1;
+  background: var(--f-accent-film);
+  color: #0b0d14;
+  font-weight: 700;
+  font-size: 12px;
+  border: none;
+  padding: 8px 12px;
+  border-radius: var(--f-radius-sm);
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-film-discover:hover {
+  background: #22d3ee;
+}
+
+/* Telegram Sub-tab Section */
+.telegram-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.telegram-banner-intro {
+  background: linear-gradient(135deg, rgba(14, 116, 144, 0.3) 0%, rgba(19, 23, 38, 0.95) 100%);
+  border: 1px solid rgba(6, 182, 212, 0.35);
+  border-radius: var(--f-radius-lg);
+  padding: 24px;
+}
+
+.telegram-banner-intro h2 {
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  color: #67e8f9;
+}
+
+.telegram-banner-intro p {
+  color: var(--f-text-muted);
+  font-size: 14px;
+  max-width: 750px;
+}
+
+.telegram-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.telegram-channel-card {
+  background: var(--f-bg-surface);
+  border: 1px solid var(--f-border);
+  border-radius: var(--f-radius-md);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.telegram-channel-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--f-border-hover);
+}
+
+.tg-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tg-name-title {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.tg-verified-tag {
+  background: rgba(16, 185, 129, 0.2);
+  color: #34d399;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--f-radius-full);
+}
+
+.tg-handle {
+  color: var(--f-accent-film);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.tg-description {
+  color: var(--f-text-muted);
+  font-size: 13px;
+  line-height: 1.5;
+  flex: 1;
+}
+
+.tg-rules-box {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 8px 12px;
+  border-radius: var(--f-radius-sm);
+  font-size: 11px;
+  color: var(--f-text-dim);
+}
+
+.tg-footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.tg-members-count {
+  font-size: 12px;
+  color: var(--f-text-muted);
+  font-weight: 600;
+}
+
+.btn-open-telegram {
+  background: #0284c7;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: var(--f-radius-full);
+  font-size: 12px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-open-telegram:hover {
+  background: #0369a1;
+}
+
+/* Modals & Dialogs */
+.modal-backdrop {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(8px);
+  z-index: 2000;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-backdrop.visible {
+  display: flex;
+}
+
+.modal-dialog {
+  background: var(--f-bg-surface);
+  border: 1px solid var(--f-border);
+  border-radius: var(--f-radius-lg);
+  width: 90%;
+  max-width: 540px;
+  box-shadow: var(--f-shadow);
+  padding: 24px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.btn-close-modal {
+  background: none;
+  border: none;
+  color: var(--f-text-muted);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* ==============================================================
+   MEDIA QUERY 1024px (Tablettes & Mobiles)
+   ============================================================== */
+@media (max-width: 1024px) {
+  .site-header {
+    padding: 0 16px;
+    height: 60px;
+  }
+
+  .nav-tabs-list {
+    gap: 4px;
+    padding: 4px;
+  }
+
+  .nav-tab-item {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+
+  .film-container {
+    padding: 20px 16px;
+  }
+
+  .subtabs-nav-bar {
+    width: 100%;
+    display: flex;
+  }
+
+  .subtab-btn {
+    flex: 1;
+    justify-content: center;
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  .films-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  .telegram-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}

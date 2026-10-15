@@ -1,0 +1,158 @@
+{
+  "platform": "Plateforme Z - Espace Jeux",
+  "dailyChallenge": {
+    "title": "Défi du jour : Chrono Réflexe Supérieur",
+    "description": "Obtiens un temps de réaction inférieur à 250 ms dans le test de réflexe pour empocher 100 XP et prolonger ta série !",
+    "rewardXP": 100,
+    "badgeTarget": "Éclair Z"
+  },
+  "interactiveGames": [
+    {
+      "id": "game-reflex",
+      "type": "playable",
+      "title": "Z-Chrono Reflex",
+      "category": "Jeux rapides",
+      "description": "Teste ta vitesse de réaction en millisecondes ! Clique dès que le voyant passe au vert sans te faire piéger par les faux départs.",
+      "difficulty": "Facile",
+      "controls": "Clic gauche / Barre d'espace / Tactile mobile",
+      "icon": "⚡"
+    },
+    {
+      "id": "game-memory",
+      "type": "playable",
+      "title": "Z-Memory des Étoiles",
+      "category": "Jeux de réflexion",
+      "description": "Retrouve les paires de cartes symboliques le plus vite possible avec le moins de coups possible pour tester ta mémoire visuelle.",
+      "difficulty": "Moyen",
+      "controls": "Clic souris / Toucher l'écran",
+      "icon": "🧠"
+    },
+    {
+      "id": "game-quiz",
+      "type": "playable",
+      "title": "Z-Quiz Culture & Sciences",
+      "category": "Jeux de réflexion",
+      "description": "10 questions captivantes de sciences et culture générale pour tester tes connaissances avec explications immédiates.",
+      "difficulty": "Moyen",
+      "controls": "Sélection par clic ou touche 1-4",
+      "icon": "🎯"
+    },
+    {
+      "id": "game-slide",
+      "type": "playable",
+      "title": "Z-Slide Puzzle 15",
+      "category": "Jeux de réflexion",
+      "description": "Remets les chiffres de 1 à 15 dans l'ordre en faisant glisser les cases dans l'emplacement vide. Le classique intemporel !",
+      "difficulty": "Difficile",
+      "controls": "Flèches directionnelles / Clic / Glisser",
+      "icon": "🧩"
+    },
+    {
+      "id": "game-duo",
+      "type": "playable",
+      "title": "Z-Dual Tap (Duel 2 Joueurs)",
+      "category": "Jeux multijoueurs",
+      "description": "Un duel d'adrénaline sur le même écran ! Joueur 1 (Haut/Touche A) vs Joueur 2 (Bas/Touche L) ou contre l'ordinateur en mode IA.",
+      "difficulty": "Tous niveaux",
+      "controls": "Écran partagé tactile ou touches clavier A & L",
+      "icon": "⚔️"
+    }
+  ],
+  "curatedShowcase": {
+    "multiplayerOnline": [
+      {
+        "title": "Krunker.io",
+        "genre": "FPS Multijoueur Arène",
+        "description": "Jeu de tir rapide en ligne multijoueur sur navigateur sans installation requise.",
+        "url": "https://krunker.io",
+        "players": "Multijoueur en temps réel"
+      },
+      {
+        "title": "Skribbl.io",
+        "genre": "Dessin & Devinettes",
+        "description": "Jeu convivial où les joueurs dessinent à tour de rôle et doivent deviner les mots en direct.",
+        "url": "https://skribbl.io",
+        "players": "2 à 12 joueurs en salon"
+      },
+      {
+        "title": "Lichess.org",
+        "genre": "Échecs Mondiaux Gratuits",
+        "description": "Plateforme d'échecs multijoueur libre, gratuite et sans publicité avec des millions de joueurs mondiaux.",
+        "url": "https://lichess.org",
+        "players": "1v1 mondial / Tournois"
+      }
+    ],
+    "downloadableLegit": [
+      {
+        "title": "SuperTuxKart",
+        "platforms": "PC (Windows / Mac / Linux) & Android",
+        "description": "Jeu de course de kart 3D palpitant, libre et gratuit mettant en scène Tux et ses amis dans des mondes féeriques.",
+        "officialUrl": "https://supertuxkart.net"
+      },
+      {
+        "title": "0 A.D. (Empires Ascendant)",
+        "platforms": "PC (Windows / Mac / Linux)",
+        "description": "Jeu de stratégie historique en temps réel (RTS) libre et gratuit salué pour sa profondeur historique.",
+        "officialUrl": "https://play0ad.com"
+      },
+      {
+        "title": "Mindustry",
+        "platforms": "PC & Mobile",
+        "description": "Jeu de gestion logistique d'usines et de défense de base (Tower Defense) hautement addictif.",
+        "officialUrl": "https://mindustrygame.github.io"
+      }
+    ],
+    "premiumOfficial": [
+      {
+        "title": "Hollow Knight",
+        "genre": "Aventure & Metroidvania",
+        "publisher": "Team Cherry",
+        "officialUrl": "https://store.steampowered.com/app/367520/Hollow_Knight/"
+      },
+      {
+        "title": "Celeste",
+        "genre": "Plateforme & Précision",
+        "publisher": "Maddy Makes Games",
+        "officialUrl": "https://store.steampowered.com/app/504230/Celeste/"
+      },
+      {
+        "title": "Hades",
+        "genre": "Action & Rogue-like",
+        "publisher": "Supergiant Games",
+        "officialUrl": "https://store.steampowered.com/app/1145360/Hades/"
+      }
+    ]
+  },
+  "badges": [
+    {
+      "id": "b-first",
+      "name": "Premier Pas Z",
+      "desc": "Lancer ta première session de jeu",
+      "icon": "🥉"
+    },
+    {
+      "id": "b-reflex",
+      "name": "Éclair Z",
+      "desc": "Réflexe inférieur à 250 ms",
+      "icon": "⚡"
+    },
+    {
+      "id": "b-brain",
+      "name": "Cerveau d'Or",
+      "desc": "100% de bonnes réponses au Z-Quiz",
+      "icon": "🧠"
+    },
+    {
+      "id": "b-puzzle",
+      "name": "Maître du Taquin",
+      "desc": "Résoudre le puzzle 15",
+      "icon": "🧩"
+    },
+    {
+      "id": "b-streak",
+      "name": "Fidèle Z",
+      "desc": "3 jours consécutifs de défis",
+      "icon": "🔥"
+    }
+  ]
+}

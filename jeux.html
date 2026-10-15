@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeux - Plateforme Z</title>
+  <meta name="description" content="Jeux gratuits en ligne, mini-jeux jouables, défis de réflexion, mode 2 joueurs et jeux à télécharger sur la Plateforme Z." />
+  <meta property="og:title" content="Jeux - Plateforme Z" />
+  <meta property="og:description" content="Jeux gratuits en ligne, mini-jeux jouables, défis de réflexion, mode 2 joueurs et jeux à télécharger sur la Plateforme Z." />
+  <meta property="og:type" content="website" />
+  <!-- Feuille CSS indépendante de la Page Jeux -->
+  <link rel="stylesheet" href="/css/jeux.css" />
+</head>
+<body>
+
+  <!-- Barre de Navigation Principale Z | Jeux | Film | Fun -->
+  <header class="site-header" id="z-main-nav"></header>
+
+  <!-- Bannière Publicitaire Défilante Partenaire (Emplacement identifié, sans régie payante) -->
+  <div class="ad-ticker-wrapper" aria-label="Espace Partenaires et Nouveautés">
+    <span class="ad-ticker-badge">Partenaires Z</span>
+    <div class="ad-ticker-track">
+      🎮 Nouveau tournoi communautaire ce week-end ! • ⚡ Battez le record mondial du Chrono Réflexe • 🧩 5 nouveaux casse-têtes débloqués • 💡 Gagnez 100 XP chaque jour en complétant le Défi Z • 🚀 Plus de 10 000 joueurs connectés sur le hub Z !
+    </div>
+  </div>
+
+  <!-- Contenu Principal de la Page Jeux -->
+  <main class="jeux-container">
+
+    <!-- Hub des Défis Quotidiens & Rétention -->
+    <section class="daily-hub-banner" aria-label="Défi quotidien">
+      <div class="daily-hub-left">
+        <h1>🎮 Espace Jeux & Défis Z</h1>
+        <p>
+          Affrontez vos réflexes, stimulez votre mémoire, résolvez des casse-têtes et défiez un ami en direct sur le même écran.
+        </p>
+        <div class="daily-rewards-chips">
+          <span class="chip-item">⚡ Défi du jour : Chrono Réflexe</span>
+          <span class="chip-item">🎁 Récompense : +100 XP</span>
+          <span class="chip-item">🏅 Badge à débloquer : Éclair Z</span>
+        </div>
+      </div>
+      <div>
+        <button class="btn-launch-challenge" id="btn-challenge-play">
+          Lancer le Défi du Jour ⚡
+        </button>
+      </div>
+    </section>
+
+    <!-- Arène Interactive des 5 Mini-Jeux Intégrés -->
+    <section class="playable-arena-box" aria-label="Arène de jeu en direct">
+      <div class="arena-header">
+        <h2 class="arena-title">🕹️ Jeux Jouables en Ligne (Directement dans le navigateur)</h2>
+      </div>
+
+      <!-- Onglets Sélecteurs de Mini-Jeux -->
+      <div class="section-nav-filters" role="tablist">
+        <button class="filter-btn game-select-tab active" data-game-id="game-reflex" role="tab">⚡ Z-Chrono Reflex</button>
+        <button class="filter-btn game-select-tab" data-game-id="game-memory" role="tab">🧠 Z-Memory</button>
+        <button class="filter-btn game-select-tab" data-game-id="game-quiz" role="tab">🎯 Z-Quiz Culture</button>
+        <button class="filter-btn game-select-tab" data-game-id="game-slide" role="tab">🧩 Z-Slide 15</button>
+        <button class="filter-btn game-select-tab" data-game-id="game-duo" role="tab">⚔️ Z-Dual Tap (2 Joueurs)</button>
+      </div>
+
+      <!-- Écran du Jeu Actif -->
+      <div class="game-stage-screen" id="game-stage">
+        <!-- Rendu dynamique par js/jeux.js -->
+      </div>
+    </section>
+
+    <!-- Catalogue & Sections de Jeux (Réflexion, Rapides, Multijoueur, Premium, Téléchargements) -->
+    <section class="games-directory-section" aria-label="Catalogue des jeux">
+      <div class="section-title-row">
+        <h2 class="section-title">Catalogue et Découvertes Jeux</h2>
+      </div>
+
+      <!-- Filtres par catégorie -->
+      <div class="section-nav-filters">
+        <button class="filter-btn active" data-filter="Tous">Tous les jeux</button>
+        <button class="filter-btn" data-filter="gratuit">Jeux gratuits en ligne</button>
+        <button class="filter-btn" data-filter="reflexion">Jeux de réflexion</button>
+        <button class="filter-btn" data-filter="multijoueur">Jeux multijoueurs</button>
+        <button class="filter-btn" data-filter="telecharger">Jeux à télécharger</button>
+        <button class="filter-btn" data-filter="premium">Jeux premium</button>
+      </div>
+
+      <!-- Grille des Cartes de Jeux -->
+      <div class="games-cards-grid" id="games-showcase-grid">
+        <!-- Rendu dynamique par js/jeux.js -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Script Natif de la Page Jeux -->
+  <script type="module" src="/js/jeux.js"></script>
+
+</body>
+</html>

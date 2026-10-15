@@ -1,0 +1,1268 @@
+{
+  "platform": "Z Platform Video Hub",
+  "totalBatches": 125,
+  "batchCapacity": 80,
+  "targetTotalVideos": 10000,
+  "activeBatchesCount": 1,
+  "verifiedVideosCount": 50,
+  "categories": [
+    "Comédie & Sketchs",
+    "Danse & Performance",
+    "Talents & Magie",
+    "Sports Urbains & Défis",
+    "Interviews & Micro-Trottoir",
+    "Moments Humains & Réactions"
+  ],
+  "batches": [
+    {
+      "id": "001",
+      "batchNumber": 1,
+      "filename": "videos-001.json",
+      "path": "/data/videos/videos-001.json",
+      "status": "ready",
+      "count": 50,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "002",
+      "batchNumber": 2,
+      "filename": "videos-002.json",
+      "path": "/data/videos/videos-002.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "003",
+      "batchNumber": 3,
+      "filename": "videos-003.json",
+      "path": "/data/videos/videos-003.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "004",
+      "batchNumber": 4,
+      "filename": "videos-004.json",
+      "path": "/data/videos/videos-004.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "005",
+      "batchNumber": 5,
+      "filename": "videos-005.json",
+      "path": "/data/videos/videos-005.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "006",
+      "batchNumber": 6,
+      "filename": "videos-006.json",
+      "path": "/data/videos/videos-006.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "007",
+      "batchNumber": 7,
+      "filename": "videos-007.json",
+      "path": "/data/videos/videos-007.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "008",
+      "batchNumber": 8,
+      "filename": "videos-008.json",
+      "path": "/data/videos/videos-008.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "009",
+      "batchNumber": 9,
+      "filename": "videos-009.json",
+      "path": "/data/videos/videos-009.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "010",
+      "batchNumber": 10,
+      "filename": "videos-010.json",
+      "path": "/data/videos/videos-010.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "011",
+      "batchNumber": 11,
+      "filename": "videos-011.json",
+      "path": "/data/videos/videos-011.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "012",
+      "batchNumber": 12,
+      "filename": "videos-012.json",
+      "path": "/data/videos/videos-012.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "013",
+      "batchNumber": 13,
+      "filename": "videos-013.json",
+      "path": "/data/videos/videos-013.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "014",
+      "batchNumber": 14,
+      "filename": "videos-014.json",
+      "path": "/data/videos/videos-014.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "015",
+      "batchNumber": 15,
+      "filename": "videos-015.json",
+      "path": "/data/videos/videos-015.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "016",
+      "batchNumber": 16,
+      "filename": "videos-016.json",
+      "path": "/data/videos/videos-016.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "017",
+      "batchNumber": 17,
+      "filename": "videos-017.json",
+      "path": "/data/videos/videos-017.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "018",
+      "batchNumber": 18,
+      "filename": "videos-018.json",
+      "path": "/data/videos/videos-018.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "019",
+      "batchNumber": 19,
+      "filename": "videos-019.json",
+      "path": "/data/videos/videos-019.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "020",
+      "batchNumber": 20,
+      "filename": "videos-020.json",
+      "path": "/data/videos/videos-020.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "021",
+      "batchNumber": 21,
+      "filename": "videos-021.json",
+      "path": "/data/videos/videos-021.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "022",
+      "batchNumber": 22,
+      "filename": "videos-022.json",
+      "path": "/data/videos/videos-022.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "023",
+      "batchNumber": 23,
+      "filename": "videos-023.json",
+      "path": "/data/videos/videos-023.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "024",
+      "batchNumber": 24,
+      "filename": "videos-024.json",
+      "path": "/data/videos/videos-024.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "025",
+      "batchNumber": 25,
+      "filename": "videos-025.json",
+      "path": "/data/videos/videos-025.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "026",
+      "batchNumber": 26,
+      "filename": "videos-026.json",
+      "path": "/data/videos/videos-026.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "027",
+      "batchNumber": 27,
+      "filename": "videos-027.json",
+      "path": "/data/videos/videos-027.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "028",
+      "batchNumber": 28,
+      "filename": "videos-028.json",
+      "path": "/data/videos/videos-028.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "029",
+      "batchNumber": 29,
+      "filename": "videos-029.json",
+      "path": "/data/videos/videos-029.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "030",
+      "batchNumber": 30,
+      "filename": "videos-030.json",
+      "path": "/data/videos/videos-030.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "031",
+      "batchNumber": 31,
+      "filename": "videos-031.json",
+      "path": "/data/videos/videos-031.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "032",
+      "batchNumber": 32,
+      "filename": "videos-032.json",
+      "path": "/data/videos/videos-032.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "033",
+      "batchNumber": 33,
+      "filename": "videos-033.json",
+      "path": "/data/videos/videos-033.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "034",
+      "batchNumber": 34,
+      "filename": "videos-034.json",
+      "path": "/data/videos/videos-034.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "035",
+      "batchNumber": 35,
+      "filename": "videos-035.json",
+      "path": "/data/videos/videos-035.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "036",
+      "batchNumber": 36,
+      "filename": "videos-036.json",
+      "path": "/data/videos/videos-036.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "037",
+      "batchNumber": 37,
+      "filename": "videos-037.json",
+      "path": "/data/videos/videos-037.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "038",
+      "batchNumber": 38,
+      "filename": "videos-038.json",
+      "path": "/data/videos/videos-038.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "039",
+      "batchNumber": 39,
+      "filename": "videos-039.json",
+      "path": "/data/videos/videos-039.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "040",
+      "batchNumber": 40,
+      "filename": "videos-040.json",
+      "path": "/data/videos/videos-040.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "041",
+      "batchNumber": 41,
+      "filename": "videos-041.json",
+      "path": "/data/videos/videos-041.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "042",
+      "batchNumber": 42,
+      "filename": "videos-042.json",
+      "path": "/data/videos/videos-042.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "043",
+      "batchNumber": 43,
+      "filename": "videos-043.json",
+      "path": "/data/videos/videos-043.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "044",
+      "batchNumber": 44,
+      "filename": "videos-044.json",
+      "path": "/data/videos/videos-044.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "045",
+      "batchNumber": 45,
+      "filename": "videos-045.json",
+      "path": "/data/videos/videos-045.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "046",
+      "batchNumber": 46,
+      "filename": "videos-046.json",
+      "path": "/data/videos/videos-046.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "047",
+      "batchNumber": 47,
+      "filename": "videos-047.json",
+      "path": "/data/videos/videos-047.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "048",
+      "batchNumber": 48,
+      "filename": "videos-048.json",
+      "path": "/data/videos/videos-048.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "049",
+      "batchNumber": 49,
+      "filename": "videos-049.json",
+      "path": "/data/videos/videos-049.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "050",
+      "batchNumber": 50,
+      "filename": "videos-050.json",
+      "path": "/data/videos/videos-050.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "051",
+      "batchNumber": 51,
+      "filename": "videos-051.json",
+      "path": "/data/videos/videos-051.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "052",
+      "batchNumber": 52,
+      "filename": "videos-052.json",
+      "path": "/data/videos/videos-052.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "053",
+      "batchNumber": 53,
+      "filename": "videos-053.json",
+      "path": "/data/videos/videos-053.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "054",
+      "batchNumber": 54,
+      "filename": "videos-054.json",
+      "path": "/data/videos/videos-054.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "055",
+      "batchNumber": 55,
+      "filename": "videos-055.json",
+      "path": "/data/videos/videos-055.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "056",
+      "batchNumber": 56,
+      "filename": "videos-056.json",
+      "path": "/data/videos/videos-056.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "057",
+      "batchNumber": 57,
+      "filename": "videos-057.json",
+      "path": "/data/videos/videos-057.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "058",
+      "batchNumber": 58,
+      "filename": "videos-058.json",
+      "path": "/data/videos/videos-058.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "059",
+      "batchNumber": 59,
+      "filename": "videos-059.json",
+      "path": "/data/videos/videos-059.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "060",
+      "batchNumber": 60,
+      "filename": "videos-060.json",
+      "path": "/data/videos/videos-060.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "061",
+      "batchNumber": 61,
+      "filename": "videos-061.json",
+      "path": "/data/videos/videos-061.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "062",
+      "batchNumber": 62,
+      "filename": "videos-062.json",
+      "path": "/data/videos/videos-062.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "063",
+      "batchNumber": 63,
+      "filename": "videos-063.json",
+      "path": "/data/videos/videos-063.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "064",
+      "batchNumber": 64,
+      "filename": "videos-064.json",
+      "path": "/data/videos/videos-064.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "065",
+      "batchNumber": 65,
+      "filename": "videos-065.json",
+      "path": "/data/videos/videos-065.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "066",
+      "batchNumber": 66,
+      "filename": "videos-066.json",
+      "path": "/data/videos/videos-066.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "067",
+      "batchNumber": 67,
+      "filename": "videos-067.json",
+      "path": "/data/videos/videos-067.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "068",
+      "batchNumber": 68,
+      "filename": "videos-068.json",
+      "path": "/data/videos/videos-068.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "069",
+      "batchNumber": 69,
+      "filename": "videos-069.json",
+      "path": "/data/videos/videos-069.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "070",
+      "batchNumber": 70,
+      "filename": "videos-070.json",
+      "path": "/data/videos/videos-070.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "071",
+      "batchNumber": 71,
+      "filename": "videos-071.json",
+      "path": "/data/videos/videos-071.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "072",
+      "batchNumber": 72,
+      "filename": "videos-072.json",
+      "path": "/data/videos/videos-072.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "073",
+      "batchNumber": 73,
+      "filename": "videos-073.json",
+      "path": "/data/videos/videos-073.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "074",
+      "batchNumber": 74,
+      "filename": "videos-074.json",
+      "path": "/data/videos/videos-074.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "075",
+      "batchNumber": 75,
+      "filename": "videos-075.json",
+      "path": "/data/videos/videos-075.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "076",
+      "batchNumber": 76,
+      "filename": "videos-076.json",
+      "path": "/data/videos/videos-076.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "077",
+      "batchNumber": 77,
+      "filename": "videos-077.json",
+      "path": "/data/videos/videos-077.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "078",
+      "batchNumber": 78,
+      "filename": "videos-078.json",
+      "path": "/data/videos/videos-078.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "079",
+      "batchNumber": 79,
+      "filename": "videos-079.json",
+      "path": "/data/videos/videos-079.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "080",
+      "batchNumber": 80,
+      "filename": "videos-080.json",
+      "path": "/data/videos/videos-080.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "081",
+      "batchNumber": 81,
+      "filename": "videos-081.json",
+      "path": "/data/videos/videos-081.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "082",
+      "batchNumber": 82,
+      "filename": "videos-082.json",
+      "path": "/data/videos/videos-082.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "083",
+      "batchNumber": 83,
+      "filename": "videos-083.json",
+      "path": "/data/videos/videos-083.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "084",
+      "batchNumber": 84,
+      "filename": "videos-084.json",
+      "path": "/data/videos/videos-084.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "085",
+      "batchNumber": 85,
+      "filename": "videos-085.json",
+      "path": "/data/videos/videos-085.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "086",
+      "batchNumber": 86,
+      "filename": "videos-086.json",
+      "path": "/data/videos/videos-086.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "087",
+      "batchNumber": 87,
+      "filename": "videos-087.json",
+      "path": "/data/videos/videos-087.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "088",
+      "batchNumber": 88,
+      "filename": "videos-088.json",
+      "path": "/data/videos/videos-088.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "089",
+      "batchNumber": 89,
+      "filename": "videos-089.json",
+      "path": "/data/videos/videos-089.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "090",
+      "batchNumber": 90,
+      "filename": "videos-090.json",
+      "path": "/data/videos/videos-090.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "091",
+      "batchNumber": 91,
+      "filename": "videos-091.json",
+      "path": "/data/videos/videos-091.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "092",
+      "batchNumber": 92,
+      "filename": "videos-092.json",
+      "path": "/data/videos/videos-092.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "093",
+      "batchNumber": 93,
+      "filename": "videos-093.json",
+      "path": "/data/videos/videos-093.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "094",
+      "batchNumber": 94,
+      "filename": "videos-094.json",
+      "path": "/data/videos/videos-094.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "095",
+      "batchNumber": 95,
+      "filename": "videos-095.json",
+      "path": "/data/videos/videos-095.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "096",
+      "batchNumber": 96,
+      "filename": "videos-096.json",
+      "path": "/data/videos/videos-096.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "097",
+      "batchNumber": 97,
+      "filename": "videos-097.json",
+      "path": "/data/videos/videos-097.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "098",
+      "batchNumber": 98,
+      "filename": "videos-098.json",
+      "path": "/data/videos/videos-098.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "099",
+      "batchNumber": 99,
+      "filename": "videos-099.json",
+      "path": "/data/videos/videos-099.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "100",
+      "batchNumber": 100,
+      "filename": "videos-100.json",
+      "path": "/data/videos/videos-100.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "101",
+      "batchNumber": 101,
+      "filename": "videos-101.json",
+      "path": "/data/videos/videos-101.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "102",
+      "batchNumber": 102,
+      "filename": "videos-102.json",
+      "path": "/data/videos/videos-102.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "103",
+      "batchNumber": 103,
+      "filename": "videos-103.json",
+      "path": "/data/videos/videos-103.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "104",
+      "batchNumber": 104,
+      "filename": "videos-104.json",
+      "path": "/data/videos/videos-104.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "105",
+      "batchNumber": 105,
+      "filename": "videos-105.json",
+      "path": "/data/videos/videos-105.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "106",
+      "batchNumber": 106,
+      "filename": "videos-106.json",
+      "path": "/data/videos/videos-106.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "107",
+      "batchNumber": 107,
+      "filename": "videos-107.json",
+      "path": "/data/videos/videos-107.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "108",
+      "batchNumber": 108,
+      "filename": "videos-108.json",
+      "path": "/data/videos/videos-108.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "109",
+      "batchNumber": 109,
+      "filename": "videos-109.json",
+      "path": "/data/videos/videos-109.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "110",
+      "batchNumber": 110,
+      "filename": "videos-110.json",
+      "path": "/data/videos/videos-110.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "111",
+      "batchNumber": 111,
+      "filename": "videos-111.json",
+      "path": "/data/videos/videos-111.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "112",
+      "batchNumber": 112,
+      "filename": "videos-112.json",
+      "path": "/data/videos/videos-112.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "113",
+      "batchNumber": 113,
+      "filename": "videos-113.json",
+      "path": "/data/videos/videos-113.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "114",
+      "batchNumber": 114,
+      "filename": "videos-114.json",
+      "path": "/data/videos/videos-114.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "115",
+      "batchNumber": 115,
+      "filename": "videos-115.json",
+      "path": "/data/videos/videos-115.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "116",
+      "batchNumber": 116,
+      "filename": "videos-116.json",
+      "path": "/data/videos/videos-116.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "117",
+      "batchNumber": 117,
+      "filename": "videos-117.json",
+      "path": "/data/videos/videos-117.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "118",
+      "batchNumber": 118,
+      "filename": "videos-118.json",
+      "path": "/data/videos/videos-118.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "119",
+      "batchNumber": 119,
+      "filename": "videos-119.json",
+      "path": "/data/videos/videos-119.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "120",
+      "batchNumber": 120,
+      "filename": "videos-120.json",
+      "path": "/data/videos/videos-120.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "121",
+      "batchNumber": 121,
+      "filename": "videos-121.json",
+      "path": "/data/videos/videos-121.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "122",
+      "batchNumber": 122,
+      "filename": "videos-122.json",
+      "path": "/data/videos/videos-122.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "123",
+      "batchNumber": 123,
+      "filename": "videos-123.json",
+      "path": "/data/videos/videos-123.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "124",
+      "batchNumber": 124,
+      "filename": "videos-124.json",
+      "path": "/data/videos/videos-124.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    },
+    {
+      "id": "125",
+      "batchNumber": 125,
+      "filename": "videos-125.json",
+      "path": "/data/videos/videos-125.json",
+      "status": "standby",
+      "count": 0,
+      "maxCapacity": 80,
+      "lastUpdated": "2026-10-15"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "test/**",
+      "scripts/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/jeux",
+        "destination": "/jeux.html"
+      },
+      {
+        "source": "/film",
+        "destination": "/film.html"
+      },
+      {
+        "source": "/fun",
+        "destination": "/fun.html"
+      }
+    ]
+  }
+}

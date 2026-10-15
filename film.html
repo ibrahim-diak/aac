@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Films & Séries - Plateforme Z</title>
+  <meta name="description" content="Découvrez 100 films et séries incontournables, chefs-d'œuvre du cinéma et communautés cinéphiles sur Telegram." />
+  <meta property="og:title" content="Films & Séries - Plateforme Z" />
+  <meta property="og:description" content="Découvrez 100 films et séries incontournables, chefs-d'œuvre du cinéma et communautés cinéphiles sur Telegram." />
+  <meta property="og:type" content="website" />
+  <!-- Feuille CSS indépendante de la Page Film -->
+  <link rel="stylesheet" href="/css/film.css" />
+</head>
+<body>
+
+  <!-- Barre de Navigation Principale Z | Jeux | Film | Fun -->
+  <header class="site-header" id="z-main-nav"></header>
+
+  <!-- Contenu Principal de la Page Film -->
+  <main class="film-container">
+
+    <!-- Deux Sous-Onglets Distinctifs Requis -->
+    <section class="subtabs-switcher" aria-label="Sous-rubriques cinéma">
+      <div class="subtabs-nav-bar" role="tablist">
+        <button class="subtab-btn active" id="subtab-movies" role="tab" aria-selected="true">
+          🎬 Films & Séries à découvrir (100 fiches)
+        </button>
+        <button class="subtab-btn" id="subtab-telegram" role="tab" aria-selected="false">
+          ✈️ Communautés cinéma sur Telegram
+        </button>
+      </div>
+    </section>
+
+    <!-- SOUS-ONGLET 1 : FILMS & SÉRIES À DÉCOUVRIR -->
+    <section id="movies-section">
+
+      <!-- Barre de Recherche et Filtres par Genre -->
+      <div class="film-controls-bar">
+        <div class="film-search-box">
+          <span class="search-icon-hint">🔍</span>
+          <input type="text" id="film-search" class="film-search-input" placeholder="Rechercher un film, un réalisateur, un genre..." />
+        </div>
+
+        <div class="genre-filter-row">
+          <button class="genre-filter-btn active" data-genre="Tous">Tous</button>
+          <button class="genre-filter-btn" data-genre="Science-Fiction">Science-Fiction</button>
+          <button class="genre-filter-btn" data-genre="Action">Action</button>
+          <button class="genre-filter-btn" data-genre="Drame">Drame</button>
+          <button class="genre-filter-btn" data-genre="Thriller">Thriller</button>
+          <button class="genre-filter-btn" data-genre="Comédie">Comédie</button>
+          <button class="genre-filter-btn" data-genre="Animation">Animation</button>
+          <button class="genre-filter-btn" data-genre="Série">Séries</button>
+        </div>
+      </div>
+
+      <!-- Compteur de résultats -->
+      <div style="font-size: 13px; color: #94a3b8; margin-bottom: 18px;" id="films-count-badge">
+        100 films et séries répertoriés
+      </div>
+
+      <!-- Grille des 100 Cartes de Films -->
+      <div class="films-grid" id="films-grid-container">
+        <!-- Rendu dynamique par js/film.js -->
+      </div>
+
+    </section>
+
+    <!-- SOUS-ONGLET 2 : COMMUNAUTÉS CINÉMA SUR TELEGRAM -->
+    <section id="telegram-section" class="telegram-section" style="display: none;">
+      
+      <div class="telegram-banner-intro">
+        <h2>✈️ Canaux & Communautés Cinéma sur Telegram</h2>
+        <p>
+          Découvrez des espaces d'échange passionnés dédiés au 7ème art, aux critiques constructives, aux bandes-annonces officielles et au partage d'œuvres patrimoniales du domaine public.
+        </p>
+      </div>
+
+      <div class="telegram-cards-grid" id="telegram-grid-container">
+        <!-- Rendu dynamique par js/film.js -->
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Script Natif de la Page Film -->
+  <script type="module" src="/js/film.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "platform": "Plateforme Z - Fun & Curiosité Scientifique",
+  "inspiration": "Vulgarisation scientifique & curiosité du monde",
+  "totalBatches": 2,
+  "activeQuestionsCount": 10,
+  "categories": [
+    "Tous",
+    "Science du quotidien",
+    "Corps humain",
+    "Espace et univers",
+    "Animaux et nature",
+    "Technologies et inventions",
+    "Psychologie et perception",
+    "Mystères de l'histoire"
+  ],
+  "thematicSeries": [
+    "5 questions que tu t'es toujours posées",
+    "Les secrets du corps humain",
+    "Les phénomènes que tu observes sans les comprendre",
+    "Les secrets de la nature vivante",
+    "Les mystères du cerveau humain",
+    "Comment fonctionnent nos technologies"
+  ],
+  "batches": [
+    {
+      "id": "fun-001",
+      "file": "fun-001.json",
+      "path": "/data/fun/fun-001.json",
+      "count": 8
+    },
+    {
+      "id": "fun-002",
+      "file": "fun-002.json",
+      "path": "/data/fun/fun-002.json",
+      "count": 2
+    }
+  ]
+}

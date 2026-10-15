@@ -1,0 +1,6 @@
+{
+  "name": "Plateforme Z - Divertissement & Découverte",
+  "description": "Plateforme Z : vidéos courtes et amusantes, mini-jeux jouables, 100 films et séries à découvrir, et questions fascinantes de découverte scientifique et culturelle.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

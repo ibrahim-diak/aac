@@ -1,0 +1,122 @@
+[
+  {
+    "id": "fun-001",
+    "category": "Science du quotidien",
+    "question": "Pourquoi le ciel devient-il rouge et flamboyant au coucher du soleil ?",
+    "teaser": "Pendant toute la journée, le ciel au-dessus de nos têtes est d'un bleu éclatant. Mais dès que le soleil approche de l'horizon, il s'embrase soudainement d'orange, de pourpre et de rouge vif. Pourquoi ce changement spectaculaire ?",
+    "explanation": "C'est grâce à un phénomène physique découvert au XIXe siècle par Lord Rayleigh : la diffusion de Rayleigh !\n\nLa lumière qui nous vient du Soleil nous paraît blanche, mais elle contient en réalité toutes les couleurs de l'arc-en-ciel, chacune correspondant à une longueur d'onde différente. Le bleu a une longueur d'onde très courte, tandis que le rouge a une longueur d'onde beaucoup plus longue.\n\nQuand les rayons entrent dans l'atmosphère terrestre, ils heurtent des milliards de molécules d'azote et d'oxygène. Les rayons bleus, très courts, ricochètent dans toutes les directions : c'est pour cela que le ciel diurne est bleu !\n\nMais au coucher du soleil, la Terre a tourné : les rayons du soleil doivent traverser une couche d'atmosphère jusqu'à 10 fois plus épaisse pour arriver jusqu'à nos yeux. À force de rebondir, tout le bleu est complètement diffusé et perdu en chemin. Seules les ondes les plus longues – le rouge et l'orange – réussissent à traverser l'épaisse barrière d'air sans être arrêtées. Résultat : un ciel flamboyant !",
+    "complementaryFacts": [
+      "Si la Terre n'avait pas d'atmosphère, le ciel serait totalement noir en permanence, même en plein jour, exactement comme sur la Lune !",
+      "Après une éruption volcanique, les couchers de soleil sont encore plus rouges pendant des mois à cause des micro-poussières en suspension."
+    ],
+    "source": "CNRS / Observatoire de Paris (Diffusion atmosphérique de Rayleigh)",
+    "series": "Les phénomènes que tu observes sans les comprendre",
+    "readingTime": "2 min",
+    "likes": 1420
+  },
+  {
+    "id": "fun-002",
+    "category": "Corps humain",
+    "question": "Pourquoi avons-nous parfois l'impression de tomber juste avant de nous endormir ?",
+    "teaser": "Tu es bien installé au chaud, tes paupières se ferment, tu commences à sombrer dans le sommeil... et tout à coup : SURSAUT ! Tes jambes se détendent brutalement comme si tu venais de faire un grand saut dans le vide. Que s'est-il passé ?",
+    "explanation": "Ce phénomène très fréquent s'appelle une 'secousse hypnagogique' (ou myoclonie d'endormissement) et concerne plus de 70% des êtres humains !\n\nAu moment où tu t'endors, ton système nerveux passe le relais : ton cerveau commence à ralentir et tes muscles reçoivent l'ordre de se relâcher complètement pour entrer en état de repos. Mais parfois, la transition ne se fait pas à la même vitesse partout.\n\nSi tes muscles se détendent plus vite que ton cerveau ne s'éteint, ce dernier reçoit un signal bizarre : 'chute soudaine de tonus musculaire'. Pour lui, perte totale d'appui musculaire = 'Attention, danger ! Tu es en train de tomber d'une falaise ou d'un arbre !'\n\nEn une fraction de seconde, le cerveau envoie une impulsion électrique réflexe ultra-puissante pour contracter tous tes muscles et te rattraper d'urgence. C'est ce qui te fait sursauter dans ton lit !",
+    "complementaryFacts": [
+      "Certains anthropologues pensent qu'il s'agit d'un réflexe ancestral hérité de l'époque où nos lointains ancêtres primates dormaient dans les arbres pour échapper aux prédateurs.",
+      "Le manque de sommeil, le stress et la caféine augmentent fortement la fréquence de ces sursauts."
+    ],
+    "source": "Inserm / Société Française de Recherche et Médecine du Sommeil",
+    "series": "Les secrets du corps humain",
+    "readingTime": "2 min",
+    "likes": 2180
+  },
+  {
+    "id": "fun-003",
+    "category": "Espace et univers",
+    "question": "Que se passerait-il réellement sur Terre si la Lune disparaissait du jour au lendemain ?",
+    "teaser": "La Lune éclaire nos nuits et berce nos contes. Mais si elle venait à se volatiliser, les conséquences ne seraient pas juste poétiques : notre planète entière entrerait dans une tempête climatique cataclysmique !",
+    "explanation": "La Lune n'est pas seulement un joli disque dans le ciel nocturne : c'est le véritable 'stabilisateur gyroscopique' de notre planète !\n\nVoici ce qui se produirait en cascade :\n\n1. Fin des marées océaniques majeures : La Lune exerce une force d'attraction gravitationnelle sur les océans. Sans elle, les marées diminueraient de 70% (il ne resterait que la faible attraction du Soleil), bouleversant la vie marine côtière.\n\n2. La Terre se mettrait à tanguer comme une toupie folle : Aujourd'hui, l'axe d'inclinaison de la Terre est maintenu très stable à environ 23,5 degrés grâce à la masse de la Lune. Sans elle, sous l'attraction de Jupiter et du Soleil, l'axe terrestre basculerait de façon chaotique entre 0 et 85 degrés ! Les pôles pourraient se retrouver face au Soleil, faisant fondre toutes les glaces et provoquant des hivers glaciaires sous l'équateur.\n\n3. Les jours raccourciraient : La Lune freine la rotation de la Terre au fil des ères. Sans ce frein, la Terre tournerait beaucoup plus vite : les journées ne dureraient que 6 à 8 heures, générant des vents supersoniques permanents !",
+    "complementaryFacts": [
+      "La Lune s'éloigne actuellement de la Terre d'environ 3,8 centimètres par an.",
+      "De nombreuses espèces d'oiseaux migrateurs, de tortues et de coraux dépendent du cycle lunaire pour se reproduire ou naviguer."
+    ],
+    "source": "NASA Solar System Exploration / Jacques Laskar (CNRS - Institut de mécanique céleste)",
+    "series": "5 questions que tu t'es toujours posées",
+    "readingTime": "3 min",
+    "likes": 3450
+  },
+  {
+    "id": "fun-004",
+    "category": "Animaux et nature",
+    "question": "Comment les arbres communiquent-ils entre eux sous nos pieds ?",
+    "teaser": "Tu penses qu'une forêt n'est qu'une collection d'arbres isolés les uns des autres ? Détrompe-toi : sous la mousse et les feuilles se cache un réseau de communication souterrain digne d'Internet !",
+    "explanation": "Les scientifiques surnomment ce réseau le 'Wood Wide Web' : il s'agit du réseau mycorhizien, une symbiose millénaire entre les racines des arbres et les filaments microscopiques de champignons (les mycéliums).\n\nÀ travers ce réseau sous la terre :\n\n- Les arbres s'entraident : Un vieil arbre majestueux bien exposé à la lumière peut envoyer du sucre et du carbone à un jeune arbrisseau qui pousse à l'ombre et manque d'énergie.\n\n- Ils s'envoient des alertes d'attaque : Si un arbre est attaqué par des pucerons ou des chenilles, il libère des signaux chimiques dans le réseau de champignons. Les arbres voisins captent l'alerte et commencent immédiatement à produire des tanins amers dans leurs feuilles pour empoisonner les insectes avant même leur arrivée !\n\n- Ils partagent l'eau en temps de sécheresse : Les arbres aux racines profondes font remonter l'humidité et la redistribuent à travers le réseau aux sujets plus fragiles.",
+    "complementaryFacts": [
+      "Une seule cuillère à café de sol forestier sain peut contenir plusieurs kilomètres d'hyphes de champignons !",
+      "Certains arbres 'mères' reconnaissent spécifiquement la signature génétique de leurs propres semis et leur envoient préférentiellement des nutriments."
+    ],
+    "source": "Suzanne Simard (Université de Colombie-Britannique) / INRAE",
+    "series": "Les secrets de la nature vivante",
+    "readingTime": "3 min",
+    "likes": 1890
+  },
+  {
+    "id": "fun-005",
+    "category": "Technologies et inventions",
+    "question": "Comment un câble posé au fond de l'océan transmet-il tout Internet ?",
+    "teaser": "Quand tu regardes une vidéo ou discutes avec quelqu'un à l'autre bout de la planète, tu imagines des satellites dans l'espace. En réalité, 99% du trafic Internet mondial circule au ras des fonds marins dans des tuyaux de la taille d'un tuyau d'arrosage !",
+    "explanation": "La quasi-totalité de l'Internet intercontinental ne passe pas par l'espace (qui est trop lent et a trop de latence), mais par environ 500 câbles sous-marins déroulés sur les abysses des océans !\n\nComment cela fonctionne ?\n\n1. Des cheveux de verre ultra-purs : Au cœur du câble se trouvent des dizaines de fibres optiques, des filaments de verre plus fins qu'un cheveu humain. Au lieu d'électricité, on utilise des impulsions laser de lumière qui transportent les données sous forme de 0 et de 1 à environ 200 000 kilomètres par seconde !\n\n2. Des amplificateurs dans l'abîme : Tous les 60 à 80 kilomètres sous l'eau, des répéteurs optiques dopés à l'erbium réamplifient la lumière laser affaiblie pour lui permettre de traverser l'Atlantique ou le Pacifique d'une seule traite.\n\n3. Une armure d'acier : Au fond des abysses (jusqu'à 8 000 mètres de profondeur), le câble est très fin car rien ne le menace sauf l'eau salée. Près des côtes, en revanche, il est blindé d'épaisses couches d'acier et de goudron pour résister aux ancres de bateaux et aux morsures de requins !",
+    "complementaryFacts": [
+      "Le premier câble transatlantique a été posé en 1858 pour le télégraphe : envoyer un message de 98 mots prenait à l'époque 17 heures !",
+      "Aujourd'hui, un seul câble moderne comme Dunant ou Grace Hopper peut transporter plus de 300 térabits par seconde."
+    ],
+    "source": "Submarine Telecoms Forum / TeleGeography Submarine Cable Map",
+    "series": "Comment fonctionnent nos technologies",
+    "readingTime": "3 min",
+    "likes": 2650
+  },
+  {
+    "id": "fun-006",
+    "category": "Psychologie et perception",
+    "question": "Pourquoi le temps semble-t-il passer beaucoup plus vite quand on vieillit ?",
+    "teaser": "Quand tu avais 8 ans, les deux mois de vacances d'été semblaient durer une éternité absolue. Mais à 30 ou 50 ans, une année entière semble s'envoler en un claquement de doigts ! Est-ce une simple illusion ou une réalité de notre cerveau ?",
+    "explanation": "C'est une fascinante découverte des neurosciences qui combine deux mécanismes cérébraux majeurs :\n\n1. La théorie proportionnelle : Quand tu as 5 ans, une année représente 20% de toute ta vie terrestre ! C'est gigantesque. À 50 ans, une année ne représente plus que 2% de ton existence vécue. Notre perception du temps est relative à la durée totale de notre mémoire.\n\n2. Le piège de la nouveauté cérébrale : Le cerveau est une formidable machine d'optimisation. Quand tu es enfant ou adolescent, presque tout est nouveau : apprendre à nager, découvrir un nouveau quartier, premier amour, premier voyage. Le cerveau tourne à plein régime et enregistre une quantité phénoménale de détails précis.\n\nÀ l'âge adulte, la routine s'installe. Trajet du matin, travail, courses, tâches quotidiennes : le cerveau passe en 'mode automatique' et compresse les souvenirs pour économiser son énergie. Quand tu te retournes sur les six derniers mois, il n'y a que peu de marqueurs nouveaux : pour ton cerveau, la période semble avoir duré deux jours !",
+    "complementaryFacts": [
+      "Pour ralentir la sensation du temps qui file, les neurologues conseillent de casser la routine : emprunter un nouvel itinéraire, apprendre un nouvel instrument, visiter un nouveau lieu chaque mois.",
+      "Lors d'un danger extrême (accident, saut à l'élastique), l'amygdale cérébrale s'active et enregistre tout en hyper-haute résolution : voilà pourquoi le temps paraît ralentir !"
+    ],
+    "source": "David Eagleman (Neuroscientifique à Stanford) / Nature Neuroscience",
+    "series": "Les mystères du cerveau humain",
+    "readingTime": "3 min",
+    "likes": 3110
+  },
+  {
+    "id": "fun-007",
+    "category": "Science du quotidien",
+    "question": "Pourquoi un bateau en acier de 100 000 tonnes flotte-t-il alors qu'une petite bille d'acier coule immédiatement ?",
+    "teaser": "Si tu laisses tomber un clou ou une pièce de monnaie dans un verre d'eau, ils tombent au fond en une seconde. Pourtant, des paquebots gigantesques de 200 000 tonnes d'acier fendent les flots sans jamais couler. Quel est ce tour de magie de la physique ?",
+    "explanation": "Tout s'explique par le génial principe d'Archimède, découvert il y a plus de 2 200 ans dans sa baignoire à Syracuse !\n\nArchimède a démontré : 'Tout corps plongé dans un fluide subit une poussée verticale, dirigée de bas en haut, égale au poids du volume de fluide déplacé.'\n\nQue se passe-t-il ?\n- Une bille d'acier est compacte et pleine : son volume est tout petit, elle ne déplace que quelques gouttes d'eau. La poussée vers le haut est minuscule, bien plus faible que son propre poids : elle coule à pic !\n\n- Un paquebot en acier a une forme creuse gigantesque. Sa coque contient un volume d'air colossal ! Quand le bateau s'enfonce de quelques mètres dans l'eau, il déplace des dizaines de milliers de mètres cubes d'eau. Le poids de toute cette eau déplacée est supérieur au poids total du navire en métal. La poussée d'Archimède vers le haut est tellement formidable qu'elle maintient le monstre d'acier en équilibre parfait sur l'eau !",
+    "complementaryFacts": [
+      "La densité moyenne d'un navire de croisière (acier + air à l'intérieur) est en réalité inférieure à celle de l'eau (1 kg par litre) !",
+      "Si de l'eau remplit la coque (comme lors du naufrage du Titanic), l'air est chassé, la masse volumique globale dépasse celle de l'eau et le bateau sombre."
+    ],
+    "source": "Palais de la Découverte / Cité des Sciences (Mécanique des fluides)",
+    "series": "Les phénomènes que tu observes sans les comprendre",
+    "readingTime": "2 min",
+    "likes": 1640
+  },
+  {
+    "id": "fun-008",
+    "category": "Animaux et nature",
+    "question": "Comment les abeilles s'expliquent-elles l'adresse exacte d'une fleur par une danse ?",
+    "teaser": "Sans GPS, sans smartphone et avec un cerveau de la taille d'une tête d'épingle, une abeille éclaireuse peut trouver un champ de fleurs à 5 kilomètres de sa ruche et revenir expliquer aux autres la distance exacte et la direction au degré près !",
+    "explanation": "C'est l'un des langages les plus sophistiqués du règne animal : la danse frétillante (ou danse en huit), découverte par le prix Nobel Karl von Frisch !\n\nLorsqu'une ouvrière rentre à la ruche avec du nectar, elle monte sur les rayons verticaux et exécute une danse devant ses congénères :\n\n1. La direction : L'abeille utilise la verticale de la ruche comme référence pour la position du Soleil dans le ciel. Si la fleur est exactement vers le Soleil, elle danse vers le haut. Si la fleur est à 45 degrés à droite du Soleil, elle danse sur une trajectoire inclinée à 45 degrés à droite !\n\n2. La distance : Plus la fleur est éloignée, plus l'abeille fait vibrer son abdomen longuement sur la ligne droite du huit. Une seconde de frétillement équivaut à environ 1 000 mètres de vol !\n\n3. La qualité de la nourriture : Plus le pollen est riche et abondant, plus l'abeille danse avec enthousiasme et vigueur, distribuant des échantillons de parfum aux spectatrices qui décollent aussitôt !",
+    "complementaryFacts": [
+      "Même si le Soleil se déplace dans le ciel pendant que l'abeille danse dans le noir de la ruche, elle ajuste l'angle de sa danse en temps réel pour compenser la rotation de la Terre !",
+      "Une ruche peut visiter jusqu'à 250 000 fleurs par jour grâce à ce système de messagerie ultra-précis."
+    ],
+    "source": "Karl von Frisch (Prix Nobel de physiologie 1973) / CNRS Écologie",
+    "series": "Les secrets de la nature vivante",
+    "readingTime": "3 min",
+    "likes": 2980
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "fun-009",
+    "category": "Mystères de l'histoire",
+    "question": "Comment la machine d'Anticythère calculait-elle l'univers il y a plus de 2 000 ans ?",
+    "teaser": "En 1901, des pêcheurs d'éponges grecs découvrent une épave antique au large d'une île déserte. Parmi les statues gît un bloc de bronze corrodé. Les scientifiques ont mis un siècle à comprendre : c'était le premier ordinateur analogique de l'histoire humaine !",
+    "explanation": "La machine d'Anticythère, datée d'environ 150 avant notre ère, contenait plus de 30 engrenages en bronze miniatures de précision chirurgicale, avec des dents triangulaires de moins de 2 millimètres !\n\nEn tournant une simple manivelle :\n- Elle prédisait avec une exactitude stupéfiante les positions du Soleil, de la Lune et des planètes connues.\n- Elle calculait la date exacte des éclipses solaires et lunaires des décennies à l'avance, en indiquant même leur couleur probable !\n- Elle tenait compte des irrégularités de l'orbite lunaire grâce à un engrenage à fente ingénieux reproduisant la première loi de Kepler 1 700 ans avant Kepler !",
+    "complementaryFacts": [
+      "Le niveau de technologie mécanique atteint dans cet appareil a complètement disparu pendant l'Antiquité tardive et n'a été réégalé en Europe qu'à l'époque des premières horloges cathédrales au XIVe siècle.",
+      "L'appareil comportait même un cadran dédié aux dates des Jeux Olympiques antiques."
+    ],
+    "source": "Musée national archéologique d'Athènes / Antikythera Mechanism Research Project",
+    "series": "Grandes découvertes et énigmes historiques",
+    "readingTime": "3 min",
+    "likes": 2410
+  },
+  {
+    "id": "fun-010",
+    "category": "Espace et univers",
+    "question": "Pourquoi le temps ne s'écoule-t-il pas à la même vitesse au sommet d'une montagne qu'au bord de la mer ?",
+    "teaser": "Tu penses qu'une seconde dure exactement une seconde partout dans l'univers ? Pas du tout ! Si tu vis au sommet de l'Everest, tes horloges tournent légèrement plus vite que celles restées sur la plage de Nice !",
+    "explanation": "C'est l'un des résultats les plus vertigineux de la relativité générale d'Albert Einstein : la dilatation temporelle gravitationnelle !\n\nEinstein a démontré que la masse et la gravité courbent non seulement l'espace, mais aussi le tissu du temps lui-même. Plus un champ de gravité est intense (c'est-à-dire plus tu es proche du centre de la Terre), plus le temps ralentit !\n\nAu bord de la mer, tu es plus près du centre de la Terre : la gravité y est un poil plus forte, donc ton temps s'écoule un minuscule chouïa plus lentement qu'au sommet d'un gratte-ciel ou d'une montagne.\n\nCe n'est pas une théorie abstraite : tes satellites GPS en orbite à 20 000 km d'altitude subissent une gravité beaucoup plus faible. Leurs horloges atomiques avancent de 45 microsecondes par jour par rapport aux nôtres. Si les ingénieurs ne corrigeaient pas cette avance relativiste chaque seconde, ton GPS se tromperait de 11 kilomètres chaque jour !",
+    "complementaryFacts": [
+      "Près de l'horizon d'un trou noir supermassif, la gravité est tellement gigantesque qu'une heure passée là-bas équivaudrait à plusieurs décennies écoulées sur Terre !",
+      "Des horloges atomiques de laboratoire ultra-précises sont aujourd'hui capables de détecter la différence d'écoulement du temps lorsqu'on les soulève de seulement 1 millimètre de hauteur !"
+    ],
+    "source": "Albert Einstein (1915) / NIST (National Institute of Standards and Technology)",
+    "series": "5 questions que tu t'es toujours posées",
+    "readingTime": "3 min",
+    "likes": 3890
+  }
+]

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fun & Sciences - Plateforme Z</title>
+  <meta name="description" content="Questions fascinantes, énigmes du monde et vulgarisation scientifique dans l'esprit de C'est pas sorcier et Discovery sur la Plateforme Z." />
+  <meta property="og:title" content="Fun & Sciences - Plateforme Z" />
+  <meta property="og:description" content="Questions fascinantes, énigmes du monde et vulgarisation scientifique dans l'esprit de C'est pas sorcier et Discovery sur la Plateforme Z." />
+  <meta property="og:type" content="website" />
+  <!-- Feuille CSS indépendante de la Page Fun -->
+  <link rel="stylesheet" href="/css/fun.css" />
+</head>
+<body>
+
+  <!-- Barre de Navigation Principale Z | Jeux | Film | Fun -->
+  <header class="site-header" id="z-main-nav"></header>
+
+  <!-- Contenu Principal de la Page Fun -->
+  <main class="fun-container">
+
+    <!-- Bannière Esprit Vulgarisation Scientifique & Curiosité -->
+    <section class="fun-hero-banner" aria-label="Curiosité et sciences">
+      <div class="fun-hero-left">
+        <h1>💡 Questions Fascinantes & Mystères du Monde</h1>
+        <p>
+          Pourquoi le ciel rougit-il ? Pourquoi tombons-nous en nous endormant ? Comment les arbres se parlent-ils ? Découvrez les secrets de l'univers expliqués simplement et avec rigueur.
+        </p>
+
+        <!-- Séries Thématiques Originales -->
+        <div class="thematic-series-chips">
+          <span style="font-size:12px; font-weight:700; color:#f59e0b; display:flex; align-items:center;">Séries :</span>
+          <button class="series-chip-btn" data-series="5 questions que tu t'es toujours posées">5 questions que tu t'es toujours posées</button>
+          <button class="series-chip-btn" data-series="Les secrets du corps humain">Les secrets du corps humain</button>
+          <button class="series-chip-btn" data-series="Les phénomènes que tu observes sans les comprendre">Les phénomènes du quotidien</button>
+          <button class="series-chip-btn" data-series="Les secrets de la nature vivante">La nature vivante</button>
+          <button class="series-chip-btn" data-series="Comment fonctionnent nos technologies">Comment ça marche</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contrôles : Recherche et Filtres de Catégories -->
+    <section class="fun-controls-row">
+      <div class="fun-search-box">
+        <span class="search-icon-hint">🔍</span>
+        <input type="text" id="fun-search" class="fun-search-input" placeholder="Poser une question, chercher un phénomène (cerveau, océan, espace...)" />
+      </div>
+
+      <div class="fun-category-pills">
+        <button class="fun-cat-btn active" data-cat="Tous">Tous les thèmes</button>
+        <button class="fun-cat-btn" data-cat="Science du quotidien">Science du quotidien</button>
+        <button class="fun-cat-btn" data-cat="Corps humain">Corps humain</button>
+        <button class="fun-cat-btn" data-cat="Espace et univers">Espace & Univers</button>
+        <button class="fun-cat-btn" data-cat="Animaux et nature">Animaux & Nature</button>
+        <button class="fun-cat-btn" data-cat="Technologies et inventions">Technologies</button>
+        <button class="fun-cat-btn" data-cat="Psychologie et perception">Psychologie</button>
+        <button class="fun-cat-btn" data-cat="Mystères de l'histoire">Histoire</button>
+      </div>
+    </section>
+
+    <!-- Compteur de découvertes -->
+    <div style="font-size: 13px; color: #94a3b8; margin-bottom: 20px;" id="fun-count-badge">
+      Chargement des découvertes...
+    </div>
+
+    <!-- Grille des Questions et Découvertes Fascinantes -->
+    <section class="questions-grid" id="fun-grid-container" aria-label="Liste des questions fascinantes">
+      <!-- Rendu dynamique par js/fun.js -->
+    </section>
+
+  </main>
+
+  <!-- Script Natif de la Page Fun -->
+  <script type="module" src="/js/fun.js"></script>
+
+</body>
+</html>
